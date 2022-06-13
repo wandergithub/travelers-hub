@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: blue;
+}
+
+.active {
+  text-decoration: underline;
+}
