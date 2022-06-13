@@ -28,9 +28,7 @@ export default function Navbar() {
           <li key={link.id}>
             <NavLink
               to={link.path}
-              className={(isActive) =>
-                "nav-link" + (!isActive ? " unselected" : "")
-              }
+              className="nav-link"
             >
               {link.text}
             </NavLink>

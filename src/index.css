@@ -4,8 +4,10 @@
 }
 
 .nav-link {
-  color: black;
-}
-.unselected {
   text-decoration: none;
+  color: blue;
+}
+
+.active {
+  text-decoration: underline;
 }
