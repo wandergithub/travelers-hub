@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-const Missions =() => <h1>Missions</h1>
+const Missions = () => <h1>Missions</h1>;
 
 export default Missions();

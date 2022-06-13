@@ -7,17 +7,17 @@ import {
 import Missions from './components/Missions';
 import MyProfile from './components/MyProfile';
 import Rockets from './components/Rockets';
-import Nav from './components/Nav'
+import Nav from './components/Nav';
 
 function App() {
   return (
     <Router>
       <Nav />
-        <Routes>
-          <Route exact path='/' element={Missions}/>
-          <Route exact path='/myprofile' element={MyProfile}/>
-          <Route exact path='/rockets' element={Rockets}/>
-        </Routes>
+      <Routes>
+        <Route exact path="/" element={Missions} />
+        <Route exact path="/myprofile" element={MyProfile} />
+        <Route exact path="/rockets" element={Rockets} />
+      </Routes>
     </Router>
   );
 }
