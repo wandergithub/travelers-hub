@@ -3,9 +3,43 @@
   padding: 0;
 }
 
+/* Navbar */
+.Navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3%;
+  padding-bottom: 10px;
+  border-bottom: 2px solid rgb(139, 139, 139);
+}
+
+.navbar-Logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-img {
+  width: 80px;
+  height: auto;
+}
+
+.navbar-Logo h1 {
+  font-size: 35px;
+}
+
 .nav-link {
   text-decoration: none;
-  color: blue;
+  color: rgb(1, 162, 255);
+  font-size: 21px;
+}
+
+.navbar-li {
+  display: inline;
+  padding: 0 10px;
+}
+
+.navbar-li:nth-child(2) {
+  border-right: 2px solid rgb(139, 139, 139);
 }
 
 .active {
@@ -22,8 +56,10 @@ img {
 }
 
 /* Missions */
+
+/* Error here line 50 */
 .Missions-wrapper {
-  padding: 2%;
+  padding: 3%;
 }
 
 .Missions-table {
@@ -78,4 +114,37 @@ img {
 .reserved {
   color: red;
   border: 2px red solid;
+}
+
+/* My Profile */
+.MyProfile-Missions {
+  float: left;
+  width: 50%;
+}
+
+.MyProfile-Missions-Wraper {
+  display: table;
+  margin: 0 auto;
+}
+
+.MyProfile-Mission {
+  padding: 1px;
+  border: 1px solid rgb(156, 156, 156);
+  border-radius: 5px;
+  width: 40vw;
+}
+
+.MyProfile-Missions h2 {
+  padding: 10px 0 20px 15px;
+  background-color: #fff;
+  border-top: 1px solid rgb(156, 156, 156);
+}
+
+.MyProfile-Missions h2:nth-child(1) {
+  border-top: none;
+}
+
+.MyProfile-Rockets {
+  float: right;
+  width: 50%;
 }
