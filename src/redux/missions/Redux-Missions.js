@@ -9,8 +9,10 @@ const missionsReducer = (state = [], { type, payload }) => {
     case FETCH_MISSIONS:
       return [...payload];
     case JOINED_MISSION:
-      console.log(payload);
-      return state;
+      return state.map((mission) => {
+        if (mission.mission_id !== payload) return mission;
+        return { ...mission, reserved: !mission.reserved };
+      });
     default:
       return state;
   }
@@ -31,5 +33,7 @@ const loadMissions = () => async (dispatch) => {
   });
 };
 
+const reserveMission = (id) => ({ type: JOINED_MISSION, payload: id });
+
 export default missionsReducer;
-export { loadMissions };
+export { loadMissions, reserveMission };
