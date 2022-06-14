@@ -12,6 +12,15 @@
   text-decoration: underline;
 }
 
+/* Rockets */
+img {
+  width: 300px;
+}
+
+.h4 {
+  color: rgb(95, 95, 95);
+}
+
 /* Missions */
 .Missions-wrapper {
   padding: 2%;
