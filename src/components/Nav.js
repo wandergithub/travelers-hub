@@ -6,22 +6,22 @@ export default function Navbar() {
   const links = [
     {
       id: 1,
+      path: '/rockets',
+      text: 'Rockets',
+    },
+    {
+      id: 2,
       path: '/',
       text: 'Missions',
     },
     {
-      id: 2,
+      id: 3,
       path: '/myprofile',
       text: 'My Profile',
     },
-    {
-      id: 3,
-      path: '/rockets',
-      text: 'Rockets',
-    },
   ];
   return (
-    <nav className="navbar">
+    <nav className="Navbar">
       <div className="navbar-Logo">
         <img src={logo} alt="Logo" />
         <h1>Space Travelers&apos; Hub</h1>
