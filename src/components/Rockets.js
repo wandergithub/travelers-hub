@@ -18,6 +18,9 @@ export default function Rockets() {
             </Col>
             <Col sm={8}>
               <p className="h4">{rocket.name}</p>
+              {rocket.reserved && (
+                <Button variant="info" className="badge">Reserved</Button>
+              )}
               <p>{rocket.description}</p>
               {rocket.reserved ? <Button variant="outline-secondary" size="md" onClick={() => dispatch(reserveRocket(rocket.id))}>Cancel Reservation Rocket</Button> : <Button variant="primary" size="md" onClick={() => dispatch(reserveRocket(rocket.id))}>Reserve Rocket</Button> }
             </Col>
