@@ -1,9 +1,15 @@
 import React from 'react';
+import { useSelector } from 'react-redux/es/exports';
 
-const Missions = () => (
-  <div>
-    <h1>Missions</h1>
-  </div>
-);
+export default function Missions() {
+  const missions = useSelector((state) => state.missions);
+  const rockets = useSelector((state) => state.rockets);
+  console.log(missions);
+  console.log(rockets);
 
-export default Missions();
+  return (
+    <div>
+      <h1>Missions</h1>
+    </div>
+  );
+}

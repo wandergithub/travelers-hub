@@ -1,3 +1,4 @@
+import axios from 'axios';
 // Actions
 const FETCHED_DATA = 'FETCHED_DATA';
 
@@ -11,12 +12,14 @@ export default function reducer(state = {}, action = {}) {
 }
 
 // Action Creators
-export function storeData(data) {
-  const list = data.map((rocket) => ({
+// thunks
+export const dispatchRockets = () => async (dispatch) => {
+  const response = await axios('https://api.spacexdata.com/v3/rockets');
+  const list = response.data.map((rocket) => ({
     id: rocket.id,
     name: rocket.rocket_name,
     type: rocket.rocket_type,
     images: rocket.flickr_images,
   }));
-  return { type: FETCHED_DATA, list };
-}
+  dispatch({ type: FETCHED_DATA, list });
+};
