@@ -4,11 +4,28 @@
 }
 
 /* Navbar */
+.navbar {
+  display: block;
+}
+
+.navbar-Logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-Logo img {
+  width: 100px;
+  height: auto;
+}
+
+.navbar-Logo h1 {
+  font-size: 40px;
+}
+
 .nav-link {
   text-decoration: none;
   color: rgb(1, 162, 255);
   font-size: 21px;
-  float: right;
 }
 
 .navbar-li {

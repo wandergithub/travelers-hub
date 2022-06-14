@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import logo from './Logo.png';
 
 export default function Navbar() {
   const links = [
@@ -20,8 +21,9 @@ export default function Navbar() {
     },
   ];
   return (
-    <nav>
+    <nav className="navbar">
       <div className="navbar-Logo">
+        <img src={logo} alt="Logo" />
         <h1>Space Travelers&apos; Hub</h1>
       </div>
       <ul className="navbar">
