@@ -38,3 +38,35 @@
 .Missions-description {
   width: 55% !important;
 }
+
+.Mission-button {
+  background-color: transparent;
+  border: 2px rgb(170, 170, 170) solid;
+  color: rgb(170, 170, 170);
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.Mission-incative {
+  padding: 4px;
+  margin: 0 auto;
+  display: table;
+  background-color: rgb(156, 156, 156);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.Mission-active {
+  padding: 4px;
+  margin: 0 auto;
+  display: table;
+  background-color: rgb(97, 118, 240);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.reserved {
+  color: red;
+  border: 2px red solid;
+}
