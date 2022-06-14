@@ -3,9 +3,16 @@
   padding: 0;
 }
 
+/* Navbar */
 .nav-link {
   text-decoration: none;
-  color: blue;
+  color: rgb(1, 162, 255);
+  font-size: 21px;
+  float: right;
+}
+
+.navbar-li {
+  display: inline;
 }
 
 .active {

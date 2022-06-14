@@ -21,14 +21,13 @@ export default function Navbar() {
   ];
   return (
     <nav>
-      <h1>Space Travelers&apos; Hub</h1>
+      <div className="navbar-Logo">
+        <h1>Space Travelers&apos; Hub</h1>
+      </div>
       <ul className="navbar">
         {links.map((link) => (
-          <li key={link.id}>
-            <NavLink
-              to={link.path}
-              className="nav-link"
-            >
+          <li className="navbar-li" key={link.id}>
+            <NavLink to={link.path} className="nav-link">
               {link.text}
             </NavLink>
           </li>
