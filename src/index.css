@@ -11,3 +11,30 @@
 .active {
   text-decoration: underline;
 }
+
+/* Missions */
+.Missions-wrapper {
+  padding: 2%;
+}
+
+.Missions-table {
+  width: 100%;
+  background-color: rgb(168, 167, 167);
+}
+
+.Missions-table tr:nth-child(even) {
+  background-color: rgb(245, 245, 245);
+}
+
+.Missions-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.Missions-table th {
+  width: 15%;
+  padding: 10px;
+}
+
+.Missions-description {
+  width: 55% !important;
+}
