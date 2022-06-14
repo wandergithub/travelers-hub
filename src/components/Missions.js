@@ -1,8 +1,11 @@
 import React from 'react';
 import { useSelector } from 'react-redux/es/exports';
+import { useDispatch } from 'react-redux';
+import { reserveMission } from '../redux/missions/Redux-Missions';
 
 export default function Missions() {
   const missions = useSelector((state) => state.missions);
+  const dispatch = useDispatch();
   return (
     <div className="Missions-wrapper">
       <table className="Missions-table">
@@ -17,9 +20,21 @@ export default function Missions() {
             <tr key={mission.mission_id}>
               <th>{mission.mission_name}</th>
               <th className="Missions-description">{mission.description}</th>
-              <th>Status</th>
               <th>
-                <button type="button">submit</button>
+                <p className={mission.reserved ? 'Mission-active' : 'Mission-incative'}>
+                  {mission.reserved ? 'Active Member' : 'NOT A MEMBER'}
+                </p>
+              </th>
+              <th>
+                <button
+                  className={`Mission-button ${mission.reserved ? 'reserved' : ''}`}
+                  type="button"
+                  onClick={() => {
+                    dispatch(reserveMission(mission.mission_id));
+                  }}
+                >
+                  {mission.reserved ? 'Leave Mission' : 'Join Mission'}
+                </button>
               </th>
             </tr>
           ))}
