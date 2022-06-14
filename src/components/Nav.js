@@ -23,7 +23,7 @@ export default function Navbar() {
   return (
     <nav className="Navbar">
       <div className="navbar-Logo">
-        <img src={logo} alt="Logo" />
+        <img className="navbar-img" src={logo} alt="Logo" />
         <h1>Space Travelers&apos; Hub</h1>
       </div>
       <ul className="navbar">
