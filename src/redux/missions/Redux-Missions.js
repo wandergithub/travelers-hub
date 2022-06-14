@@ -6,8 +6,6 @@ const FETCH_MISSIONS = 'FETCH_MISSIONS';
 const missionsReducer = (state = [], { type, payload }) => {
   switch (type) {
     case FETCH_MISSIONS:
-      console.log(type);
-      console.log(payload);
       return [...payload];
     default:
       return state;
