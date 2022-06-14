@@ -6,7 +6,7 @@ import {
 
 import axios from 'axios';
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import Missions from './components/Missions';
 import MyProfile from './components/MyProfile';
 import Rockets from './components/Rockets';
@@ -24,6 +24,9 @@ function App() {
     dispatch(loadMissions());
     dispatchRockets();
   }, []);
+
+  const missions = useSelector((state) => state.missions);
+  console.log(missions);
 
   return (
     <Router>
