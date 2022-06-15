@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Container, Col, Row, Button,
 } from 'react-bootstrap';
-import { useDispatch, useSelector } from 'react-redux/es/exports';
+import { useDispatch, useSelector } from 'react-redux';
 import { reserveRocket } from '../redux/rockets/Redux-Rockets';
 
 export default function Rockets() {

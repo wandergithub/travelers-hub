@@ -1,6 +1,5 @@
 import React from 'react';
-import { useSelector } from 'react-redux/es/exports';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { reserveMission } from '../redux/missions/Redux-Missions';
 
 export default function Missions() {
