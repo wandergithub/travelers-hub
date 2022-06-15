@@ -144,7 +144,6 @@ img {
   border-top: none;
 }
 
-.MyProfile-Rockets {
-  float: right;
-  width: 50%;
+.list-group-item {
+  width: 70%;
 }
