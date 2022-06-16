@@ -7,7 +7,6 @@ const FETCH_MISSIONS = 'FETCH_MISSIONS';
 const missionsReducer = (state = [], { type, payload }) => {
   switch (type) {
     case FETCH_MISSIONS:
-      console.log(state);
       return [...payload];
     case JOINED_MISSION:
       return state.map((mission) => {
