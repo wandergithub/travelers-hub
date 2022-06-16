@@ -9,7 +9,7 @@ export default function MyProfile() {
   return (
     <div className="d-flex">
       <div className="MyProfile-Rockets mx-5">
-        <h1 className="mt-2">My Rockets</h1>
+        <h1 className="mt-2">My Missions</h1>
         <ListGroup>
           {missions.map((mission) => (
             <ListGroup.Item key={mission.mission_id} className="h3">{mission.mission_name}</ListGroup.Item>

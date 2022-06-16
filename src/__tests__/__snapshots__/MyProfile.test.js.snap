@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests My profyle My profile component renders correctly/Snapshot 1`] = `
+<div
+  className="d-flex"
+>
+  <div
+    className="MyProfile-Rockets mx-5"
+  >
+    <h1
+      className="mt-2"
+    >
+      My Missions
+    </h1>
+    <div
+      className="list-group"
+      onKeyDown={[Function]}
+    />
+  </div>
+  <div
+    className="MyProfile-Rockets"
+  >
+    <h1
+      className="mt-2"
+    >
+      My Rockets
+    </h1>
+    <div
+      className="list-group"
+      onKeyDown={[Function]}
+    >
+      <div
+        className="h3 list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        Rocket 0
+      </div>
+      <div
+        className="h3 list-group-item"
+        data-rr-ui-event-key={null}
+        onClick={[Function]}
+      >
+        Rocket 1
+      </div>
+    </div>
+  </div>
+</div>
+`;
