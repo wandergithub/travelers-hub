@@ -1,8 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Table, Button, Badge } from 'react-bootstrap';
-import { useSelector } from 'react-redux/es/exports';
-
 import { reserveMission } from '../redux/missions/Redux-Missions';
 
 export default function Missions() {

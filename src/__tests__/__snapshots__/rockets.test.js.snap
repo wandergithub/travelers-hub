@@ -5,7 +5,7 @@ exports[`Rockets component test Component renders/ Snapshot test 1`] = `
   className="container"
 >
   <div
-    className="mb-3 row"
+    className="m-3 row"
   >
     <div
       className="col-sm-4"
@@ -23,11 +23,14 @@ exports[`Rockets component test Component renders/ Snapshot test 1`] = `
       >
         Rocket 0
       </p>
-      <p>
+      <p
+        className="d-inline"
+      >
         Rocket description
       </p>
+      <br />
       <button
-        className="btn btn-primary btn-md"
+        className="mt-3 btn btn-primary btn-md"
         disabled={false}
         onClick={[Function]}
         type="button"

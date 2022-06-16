@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Nav bar testing Nav bar Snapshot 1`] = `
+<nav
+  className="Navbar mt-3"
+>
+  <div
+    className="navbar-Logo"
+  >
+    <img
+      alt="Logo"
+      className="navbar-img"
+      src="Logo.png"
+    />
+    <h1
+      className="mx-3"
+    >
+      Space Travelers' Hub
+    </h1>
+  </div>
+  <ul
+    className="navbar"
+  >
+    <li
+      className="navbar-li"
+    >
+      <a
+        className="nav-link"
+        href="/rockets"
+        onClick={[Function]}
+      >
+        Rockets
+      </a>
+    </li>
+    <li
+      className="navbar-li"
+    >
+      <a
+        aria-current="page"
+        className="nav-link active"
+        href="/"
+        onClick={[Function]}
+      >
+        Missions
+      </a>
+    </li>
+    <li
+      className="navbar-li"
+    >
+      <a
+        className="nav-link"
+        href="/myprofile"
+        onClick={[Function]}
+      >
+        My Profile
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
