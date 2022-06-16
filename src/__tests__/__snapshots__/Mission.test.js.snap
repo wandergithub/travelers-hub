@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions testing REnder Missions 1`] = `
+<div
+  className="Missions-wrapper"
+>
+  <table
+    className="table table-striped table-bordered table-hover"
+  >
+    <tbody>
+      <tr>
+        <th>
+          Mission
+        </th>
+        <th
+          className="Missions-description"
+        >
+          Description
+        </th>
+        <th>
+          Status
+        </th>
+        <th>
+          Interaction
+        </th>
+      </tr>
+      <tr>
+        <th>
+          Mission Name
+        </th>
+        <th>
+          Mission Description
+        </th>
+        <th
+          className="vert"
+        >
+          <span
+            className="badge bg-secondary"
+          >
+            NOT A MEMBER
+          </span>
+        </th>
+        <th
+          className="vert"
+        >
+          <button
+            className="m-3 btn btn-outline-secondary"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            Join Mission
+          </button>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
