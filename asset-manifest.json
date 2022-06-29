@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/travelers-hub/static/css/main.fbf53663.css",
-    "main.js": "/travelers-hub/static/js/main.6dff03a1.js",
+    "main.js": "/travelers-hub/static/js/main.395946d3.js",
     "static/media/Logo.png": "/travelers-hub/static/media/Logo.3f6fb2742f28651730c0.png",
     "index.html": "/travelers-hub/index.html",
     "main.fbf53663.css.map": "/travelers-hub/static/css/main.fbf53663.css.map",
-    "main.6dff03a1.js.map": "/travelers-hub/static/js/main.6dff03a1.js.map"
+    "main.395946d3.js.map": "/travelers-hub/static/js/main.395946d3.js.map"
   },
   "entrypoints": [
     "static/css/main.fbf53663.css",
-    "static/js/main.6dff03a1.js"
+    "static/js/main.395946d3.js"
   ]
 }
