@@ -6,17 +6,17 @@ export default function Navbar() {
   const links = [
     {
       id: 1,
-      path: '/rockets',
+      path: 'travelers-hub/rockets',
       text: 'Rockets',
     },
     {
       id: 2,
-      path: '/',
+      path: 'travelers-hub/',
       text: 'Missions',
     },
     {
       id: 3,
-      path: '/myprofile',
+      path: 'travelers-hub/myprofile',
       text: 'My Profile',
     },
   ];
