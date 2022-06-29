@@ -16,7 +16,7 @@
 - JavaScript
 ## Live Demo 
 
-[Live Demo Link](https://wandergithub.github.io/rockets)
+[Live Demo Link](https://wandergithub.github.io/travelers-hub/)
 
 ## Usage  <img src="https://img.icons8.com/external-filled-outline-geotatah/344/external-engine-merger-and-acquisition-filled-outline-filled-outline-geotatah.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
