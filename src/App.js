@@ -24,9 +24,9 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route exact path="/" element={<Missions />} />
-        <Route exact path="/myprofile" element={<MyProfile />} />
-        <Route exact path="/rockets" element={<Rockets />} />
+        <Route exact path="travelers-hub/" element={<Missions />} />
+        <Route exact path="travelers-hub/myprofile" element={<MyProfile />} />
+        <Route exact path="travelers-hub/rockets" element={<Rockets />} />
       </Routes>
     </Router>
   );
