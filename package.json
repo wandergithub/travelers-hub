@@ -2,7 +2,7 @@
   "name": "travelers-hub",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wandergithub.github.io/rockets",
+  "homepage": "https://wandergithub.github.io/travelers-hub/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.2",
     "@testing-library/jest-dom": "^5.16.4",
