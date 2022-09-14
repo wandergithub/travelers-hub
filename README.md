@@ -4,9 +4,10 @@
 
 > The Space Travelers' Hub is a React app which allows the user to manage the booking of SpaceX rockets and joining missions. The user can manage all his subscriptions in My Profile section where all the Rockets and Missions selected previously are displayed.
 
-<!-- ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
+## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
  
-![App ScreenShot](screenshot.png "App screenshot") -->
+![App ScreenShot](desktop.png "App screenshot")
+![App ScreenShot](desktop1.png "App screenshot")
 
 ## Built With
 
